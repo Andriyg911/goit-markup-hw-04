@@ -9,6 +9,7 @@ p,h1,h2,h3,h4,h5,h5 {
 }
 a {
   text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 ul,ol {
   list-style-type: none;
@@ -152,8 +153,10 @@ padding-bottom: 188px;
 background-color: #2e2f42; 
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg),url(#2E2F42);
 background-repeat: no-repeat;
+background-position: center;
 background-size: cover;
 max-width: 1440px;
+
 margin: 0  auto;
 }
 .effective-solutions-h {
@@ -190,7 +193,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .effective-solutions-button:focus {
   color:  #fff;
   background-color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .section-one {
   padding-top: 120px;
