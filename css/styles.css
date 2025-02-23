@@ -52,6 +52,8 @@ body {
   font-weight: 400;
   color: #434455;
   background-color: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /*#region header*/
 .header {
@@ -447,6 +449,7 @@ body {
 .footer-ziro {
   display: flex;
   align-items: baseline;
+  padding-left: 156px;
 }
 .footer-logo-div {
   margin-right: 120px;
